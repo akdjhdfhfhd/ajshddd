@@ -26,7 +26,7 @@ import config
 from FallenMusic import BOT_USERNAME
 
 close_key = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
+    [[InlineKeyboardButton(text="☆ اغلاق ☆", callback_data="close")]]
 )
 
 
@@ -45,11 +45,11 @@ buttons = InlineKeyboardMarkup(
 pm_buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="أضف البوت لمجموعتڪ ✅",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="fallen_help")],
+    [InlineKeyboardButton(text="༺الاوامر༻", callback_data="fallen_help")],
     [
         InlineKeyboardButton(text="قناة البوت ⚙️", url=config.SUPPORT_CHANNEL),
         InlineKeyboardButton(text="ڪࢪوب البوت ❄", url=config.SUPPORT_CHAT),
@@ -66,7 +66,7 @@ pm_buttons = [
 gp_buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="أضف البوت لمجموعتڪ ✅",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
@@ -86,17 +86,17 @@ gp_buttons = [
 helpmenu = [
     [
         InlineKeyboardButton(
-            text="ᴇᴠᴇʀʏᴏɴᴇ",
+            text="☆ اوامر التشغيل ☆",
             callback_data="fallen_cb help",
         )
     ],
     [
-        InlineKeyboardButton(text="sᴜᴅᴏ", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="☆ اوامر المطور ☆", callback_data="fallen_cb sudo"),
+        InlineKeyboardButton(text="☆ اوامر المالك ☆", callback_data="fallen_cb owner"),
     ],
     [
-        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_home"),
-        InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
+        InlineKeyboardButton(text="☆ رجوع ☆", callback_data="fallen_home"),
+        InlineKeyboardButton(text="☆ اغلاق ☆", callback_data="close"),
     ],
 ]
 
@@ -104,7 +104,7 @@ helpmenu = [
 help_back = [
     [InlineKeyboardButton(text="ڪࢪوب البوت ❄", url=config.SUPPORT_CHAT)],
     [
-        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_help"),
-        InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
+        InlineKeyboardButton(text="☆ رجوع ☆", callback_data="fallen_help"),
+        InlineKeyboardButton(text="☆ اغلاق ☆", callback_data="close"),
     ],
 ]
